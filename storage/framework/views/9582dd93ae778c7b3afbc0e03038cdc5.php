@@ -1,1 +1,0 @@
-<?php /**PATH C:\laragon\www\hemo_project\resources\views/adminPanel/auth/layout/footer.blade.php ENDPATH**/ ?>

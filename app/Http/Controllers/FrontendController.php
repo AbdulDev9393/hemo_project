@@ -198,7 +198,7 @@ class FrontendController extends Controller
 
 
             
-        ));
+asasassas        ));
     }
 
     public function adByMakes($slug, $id)

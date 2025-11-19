@@ -185,7 +185,6 @@ class FrontendController extends Controller
             ->take(5)
             ->get();
         $cities = City::all();
-        $domain = Domain::with('cities')->first();
         return view('frontend.PartSearch', compact(
             'part',
             'carMakes',
@@ -196,7 +195,6 @@ class FrontendController extends Controller
             'ads',
             'randomParts',
             'cities',
-            'domain'
 
         ));
     }

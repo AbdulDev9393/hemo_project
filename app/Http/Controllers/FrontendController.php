@@ -200,7 +200,7 @@ class FrontendController extends Controller
         ));
     }
    function pull(){
-    
+     view('sd')
    }
     public function adByMakes($slug, $id)
     {

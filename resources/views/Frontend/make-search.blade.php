@@ -218,7 +218,7 @@
         </div>
     </section>
 
-@include('Frontend.layout.company')
+@include('frontend.layout.company')
 
     <script>
         function contactSupplier(isActive, number, title) {

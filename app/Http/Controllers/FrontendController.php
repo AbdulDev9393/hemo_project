@@ -196,7 +196,7 @@ class FrontendController extends Controller
             'randomParts',
             'cities',
 
-            merge data
+                
         ));
     }
 
